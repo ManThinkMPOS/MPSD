@@ -14,7 +14,7 @@
   MPOS second development demo
 1.LoRaWAN Stack library： LWS417Alib.a
   The library realise most functions of LoRaWAN stack and provide some interfaces function for users.
-2. MyAPP.c  
+2.MyAPP.c  
   The file is used to define some functions of user and setup periodic task and once event task.
 3.MyApp_INT.c  
   The file is used to define all the interrupts of MPOS.
