@@ -21,7 +21,7 @@ void MT_MyInit()
 	MT_MyHookInit();             //Upload the hook function
         MT_MyParaInit();             //Initial the userdata
 	MT_MyBoardInit();            //Initial the hardware
-	//LoRaWANParaInitial();   //user's intialization
+	MT_LoRaWANParaInitial();   //user's intialization
 	mpos_driver.kickdog();    //kick watch dog
 	mpos_lws.LWS_init();      //intialization of LoRaWAN SDK
 	mpos_driver.kickdog();    //kick watch dog

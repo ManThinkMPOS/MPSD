@@ -842,7 +842,7 @@
             <IarPane-34099>
                 <expressions>
                     <item>MT_TaskSensorTx</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>
