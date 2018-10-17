@@ -10,6 +10,7 @@
 * contact info : info@manthink.cn
 * contributor  : mingfei zhao
 *******************************************************************************/
+/*******************************************************************************
   MPOS second development demo
 1.LoRaWAN Stack library： LWS417Alib.a
   The library realise most functions of LoRaWAN stack and provide some interfaces function for users.
@@ -31,3 +32,4 @@
   The file is used to define the global variables.
 10.mymain.c 
   The file is used to initial the LoRaWAN stack and some global configurations.
+*******************************************************************************/
