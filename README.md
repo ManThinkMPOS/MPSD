@@ -1,14 +1,13 @@
- /*******************************************************************************
- * Copyright (c) ManThink Technology Ltd. co.
- * All rights reserved. This program and the accompanying materials
- * are made available under the software of IAR for ARM version 7.60.2
- * This is a demo working with the SDK of LWS made by ManThink Technology
- * LWS is a SDK for OM 801 which realize LoRaWAN function.
- * The Demo should be run on the hardware of OM801 produced by ManThink Technology
- * http://www.manthink.cn 
- * contact info : info@manthink.cn
- * contributor  : mingfei zhao
- *******************************************************************************/
+# Copyright (c) ManThink Technology Ltd. co.
+# All rights reserved. This program and the accompanying materials
+# are made available under the software of IAR for ARM version 7.60.2
+# This is a demo working with the SDK of LWS made by ManThink Technology
+# LWS is a SDK for OM 801 which realize LoRaWAN function.
+# The Demo should be run on the hardware of OM801 produced by ManThink Technology
+# http://www.manthink.cn 
+# contact info : info@manthink.cn
+# contributor  : mingfei zhao
+##################################
 # MPOS second development demo
 # 1.LoRaWAN Stack library： LWS417Alib.a
 # The library realise most functions of LoRaWAN stack and provide some interfaces function for users.
