@@ -18,8 +18,8 @@ void MT_SetupOnceEventTask()
 {
   LPInfo.wakingBit.Bits.OnceEvent1=0;
   HookExcuteOnce1 = MT_Tx_Data; 
-  //LPInfo.wakingBit.Bits.OnceEvent2=1;
-  //HookExcuteOnce2 = System_Initial;
+  LPInfo.wakingBit.Bits.OnceEvent2=1;
+  HookExcuteOnce2 = MT_Join_Net;
 }
 void MT_app_HookAPPParaChanged(u1_t * paras)
 {

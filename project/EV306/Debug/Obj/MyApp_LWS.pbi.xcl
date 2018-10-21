@@ -289,6 +289,7 @@ G:\OM402O\MPSD\MPSD\project\EV306\Driver\DS18B20
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D_UP_GRADE=1
 -D_MPOS_RAMLOAD_LIB=1
+-D_DEBUGING=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\arm\\INC\\c\\DLib_Config_Normal.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\arm\\INC\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.20.2.14835/W32 for ARM"

@@ -221,6 +221,7 @@
                     <name>CCDefines</name>
                     <state>_UP_GRADE</state>
                     <state>_MPOS_RAMLOAD_LIB</state>
+                    <state>_DEBUGING</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -769,7 +770,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$PROJ_DIR$\MKL17Z64xxx4_RDIx01.icf</state>
+                    <state>$PROJ_DIR$\MKL17Z64xxx4_MT.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -817,7 +818,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    <state>$PROJ_DIR$\..\..\lib\LWS417Alib.a</state>
+                    <state>$PROJ_DIR$\..\..\lib\MPSD_LWS402lightlib.a</state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>

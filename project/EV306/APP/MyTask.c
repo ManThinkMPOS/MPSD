@@ -25,3 +25,12 @@ void MT_Tx_Data()
   MT_AUX_LED_ON();   
   mpos_lws.LW_TxData((unsigned char*)(MT_Sensor.Bytes),INFOR_LEN,SENSOR_PORT, LWOP_LTC);     
 }
+/********************************************************
+* Function: Join the Net(SetupOnceEventTask)
+********************************************************/
+void MT_Join_Net()
+{
+  MT_AUX_LED_ON(); 
+  RunStatus.Varible.State.Bits.OTA=1; 
+  mpos_lws.JoinReset(LWOP_JOIN); 
+}

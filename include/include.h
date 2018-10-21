@@ -2,13 +2,8 @@
 #define __INCLUDE__H__
 #include "stdio.h"
 #include "MKL17Z644.h"
-#include "MT_KL17_UART.h"
-#include "MT_KL17_Timer.h"
 #include "MT_KL17_GPIO.h"
-#include "MT_KL17_SPI.h"
-#include "MT_KL17_Timer.h"
 #include "MT_KL17_Flash.h"
-#include "MT_KL17_RTC.h"
 #include "MP_OS_type.h"
 #include "MP_LWS_type.h"
 #include "MP_LWS.h"

@@ -75,17 +75,6 @@ typedef union
   }regsLong;
 }FCC0B_STR;
 
-//  API FUNCTION FOR KINETIS FLASH DRIVER
-void  FLASH_Initialization(void);
-uint32_t FLASH_EraseSector(uint32_t destination);
-uint32_t FLASH_ProgramLongWord(uint32_t destination, uint32_t data);
-uint32_t FLASH_ProgramPhrase(uint32_t destination, uint32_t * data64b);
-uint32_t FLASH_ProgramSectionByLongs(uint32_t destination, uint32_t* pSource, uint32_t size);
-uint32_t FLASH_ProgramSectionByPhrases(uint32_t destination, uint32_t* pSource, uint32_t size);
-uint32_t FLASH_MassErase(void);
-uint32_t FLASH_ProgramOnce(uint32_t index, uint32_t *src);
-uint32_t FLASH_ReadOnce(uint32_t index, uint32_t *dst);
-
 #endif
 
 

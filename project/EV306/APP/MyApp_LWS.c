@@ -105,8 +105,10 @@ void MT_HookUserEvent( mt_ev_t ev ,u1_t port,u1_t * Buffer, u2_t len)
         if(mt_dtu_resetAfterLWT) mpos_driver.mcureset();
         break;
   case MT_EV_JOINED:	   // when the module joined the network successfully
+        MT_AUX_LED_OFF();
         break; 
   case MT_EV_JOIN_FAILED:  // the join failed
+        MT_AUX_LED_OFF();
 	break;   
   case MT_EV_REJOIN_FAILED: // rejoin failed 
 	break; 
