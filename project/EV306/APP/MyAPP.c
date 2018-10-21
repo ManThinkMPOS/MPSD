@@ -9,9 +9,9 @@
 ********************************************************/
 void MT_SetupSensorTxTask()
 {
-     MT_TaskSensorTx.Task=MT_SensorTx;
-     MT_TaskSensorTx.interval = mpos_osfun.os_rlsbf2(MT_Sensor_AppPara->UpInterval)*60000;
-     MT_TaskSensorTx.cycles=0xFFFFFFFF;
+     MT_TaskSensorTx.Task=MT_SensorTx;   //Set a periodic task
+     MT_TaskSensorTx.interval = mpos_osfun.os_rlsbf2(MT_Sensor_AppPara->UpInterval)*60000;//Set execution cycle unit:ms
+     MT_TaskSensorTx.cycles=0xFFFFFFFF;  //Set the execute times, if the value is 0xFFFFFFFF,it's infinite loop. 
      mpos_osfun.Task_Setup(&MT_TaskSensorTx);
 }
 void MT_SetupOnceEventTask()
