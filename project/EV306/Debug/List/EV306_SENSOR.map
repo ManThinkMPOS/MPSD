@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.20.2.14835/W32 for ARM                21/Oct/2018  16:11:42
+# IAR ELF Linker V8.20.2.14835/W32 for ARM                30/Oct/2018  15:35:45
 # Copyright 2007-2017 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        G:\OM402O\MPSD\MPSD\project\EV306\Debug\List\EV306_SENSOR.map
 #    Command line =  
-#        -f C:\Users\HUANGD~1\AppData\Local\Temp\EW7167.tmp
+#        -f C:\Users\HUANGD~1\AppData\Local\Temp\EWDD74.tmp
 #        (G:\OM402O\MPSD\MPSD\project\EV306\Debug\Obj\DS18B20.o
 #        G:\OM402O\MPSD\MPSD\project\EV306\Debug\Obj\LIS2DH12.o
 #        G:\OM402O\MPSD\MPSD\project\EV306\Debug\Obj\lis2dh12_reg.o
@@ -26,7 +26,7 @@
 #        mpos_main --map
 #        G:\OM402O\MPSD\MPSD\project\EV306\Debug\List\EV306_SENSOR.map --config
 #        G:\OM402O\MPSD\MPSD\project\EV306\MKL17Z64xxx4_MT.icf --semihosting
-#        G:\OM402O\MPSD\MPSD\project\EV306\..\..\lib\MPSD_LWS402lightlib.a
+#        G:\OM402O\MPSD\MPSD\project\EV306\..\..\lib\MPSD_LWS402litelib.a
 #        --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -552,7 +552,7 @@ command line: [2]
     -------------------------------------------------------------------
     Total:
 
-MPSD_LWS402lightlib.a: [3]
+MPSD_LWS402litelib.a: [3]
     Baord.o                     656
     Global.o                                                      1 316
     Global_Driver.o                                                 140
@@ -1333,7 +1333,7 @@ xbuffer                 0x20000850  0x400  Data  Gb  Global_app.o [3]
 
 [1] = G:\OM402O\MPSD\MPSD\project\EV306\Debug\Obj
 [2] = command line
-[3] = MPSD_LWS402lightlib.a
+[3] = MPSD_LWS402litelib.a
 [4] = dl6M_tln.a
 [5] = m6M_tl.a
 [6] = rt6M_tl.a

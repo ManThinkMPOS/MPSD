@@ -1,398 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>4087698199</fileChecksum>
+    <fileChecksum>1076917384</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\Driver\MT_KL17_I2C.c</file>
-            <file>$PROJ_DIR$\APP\MyType.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MT_KL17_I2C.o</file>
-            <file>$PROJ_DIR$\APP\MyParse.h</file>
-            <file>$PROJ_DIR$\APP\MyApp_INT.c</file>
-            <file>$PROJ_DIR$\Driver\LIS2DH12\LIS2DH12.h</file>
-            <file>$PROJ_DIR$\Driver\SHT20\SHT20.h</file>
-            <file>$PROJ_DIR$\MKL17Z64xxx4_RDIx01.icf</file>
-            <file>$PROJ_DIR$\mymain.c</file>
-            <file>$PROJ_DIR$\MyGlobal.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyAPP.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\EV306_SENSOR.out</file>
-            <file>$PROJ_DIR$\Driver\DS18B20\DS18B20.h</file>
-            <file>$PROJ_DIR$\APP\MyBoard.h</file>
-            <file>$PROJ_DIR$\Driver\LIS2DH12\LIS2DH12.c</file>
-            <file>$PROJ_DIR$\Driver\DS18B20\DS18B20.c</file>
-            <file>$PROJ_DIR$\Driver\LIS2DH12\lis2dh12_reg.h</file>
-            <file>$PROJ_DIR$\Driver\SHT20\SHT20.c</file>
             <file>$PROJ_DIR$\APP\MyApp_LWS.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyGlobal.o</file>
-            <file>$PROJ_DIR$\APP\MyAPP.c</file>
-            <file>$PROJ_DIR$\Driver\LIS2DH12\lis2dh12_reg.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyAPP.__cstat.et</file>
-            <file>$PROJ_DIR$\..\..\include\include.h</file>
+            <file>$PROJ_DIR$\APP\MyApp_INT.c</file>
             <file>$PROJ_DIR$\APP\MyBoard.c</file>
             <file>$PROJ_DIR$\APP\MyParse.c</file>
             <file>$PROJ_DIR$\APP\MyTask.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\lis2dh12_reg.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyGlobal.pbi</file>
-            <file>$PROJ_DIR$\..\..\include\core\system_MKL17Z644.h</file>
-            <file>$PROJ_DIR$\..\..\include\system\MP_LWS.h</file>
-            <file>$PROJ_DIR$\..\..\include\driver\MT_KL17_GPIO.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\lis2dh12_reg.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyGlobal.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\lis2dh12_reg.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\LIS2DH12.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\..\..\include\core\core_cm0plus.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyTask.pbi</file>
-            <file>$PROJ_DIR$\Debug\Exe\EV306_SENSOR.hex</file>
-            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\APP\MyType.h</file>
+            <file>$PROJ_DIR$\Driver\DS18B20\DS18B20.c</file>
+            <file>$PROJ_DIR$\Driver\DS18B20\DS18B20.h</file>
+            <file>$PROJ_DIR$\APP\MyAPP.c</file>
+            <file>E:\Software\Module\LoRaWAN\LWS17\main.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\EV306_SENSOR.out</file>
             <file>$PROJ_DIR$\Debug\Obj\DS18B20.__cstat.et</file>
-            <file>$PROJ_DIR$\..\..\include\system\KL17_type.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyBoard.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyApp_INT.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyApp_INT.pbi</file>
-            <file>$PROJ_DIR$\..\..\include\core\core_cmFunc.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyApp_LWS.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\DS18B20.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyParse.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\LIS2DH12.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SHT20.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MT_KL17_I2C.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyTask.pbi</file>
             <file>$PROJ_DIR$\Driver\MT_KL17_I2C.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyApp_LWS.__cstat.et</file>
-            <file>$PROJ_DIR$\..\..\include\system\MP_OS_type.h</file>
-            <file>$PROJ_DIR$\..\..\include\system\MP_LWS_type.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\mymain.__cstat.et</file>
-            <file>$PROJ_DIR$\APP\MyTask.h</file>
-            <file>$PROJ_DIR$\APP\MyApp_LWS.h</file>
-            <file>$PROJ_DIR$\APP\MyAPP.h</file>
             <file>$PROJ_DIR$\..\..\include\core\core_cmInstr.h</file>
-            <file>$PROJ_DIR$\..\..\include\driver\MT_KL17_Flash.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyParse.pbi</file>
-            <file>$PROJ_DIR$\..\..\include\system\Global.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyAPP.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\EV306_SENSOR.pbd</file>
-            <file>$PROJ_DIR$\..\..\include\driver\MKL17Z644.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\mymain.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyBoard.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
             <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
-            <file>$PROJ_DIR$\MyGlobal.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyApp_INT.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyParse.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\MT_KL17_I2C.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\APP\MyBoard.h</file>
+            <file>$PROJ_DIR$\..\..\include\system\MP_LWS.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyAPP.__cstat.et</file>
+            <file>$PROJ_DIR$\APP\MyParse.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MT_KL17_I2C.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LIS2DH12.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\EV306_SENSOR.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyGlobal.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MT_KL17_I2C.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyApp_LWS.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyApp_LWS.o</file>
+            <file>$PROJ_DIR$\..\..\include\system\KL17_type.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyApp_INT.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\include\core\system_MKL17Z644.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\EV306_SENSOR.hex</file>
+            <file>$PROJ_DIR$\..\..\include\system\Global.h</file>
+            <file>$PROJ_DIR$\..\..\include\core\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyAPP.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mymain.__cstat.et</file>
+            <file>$PROJ_DIR$\APP\MyApp_LWS.h</file>
             <file>$PROJ_DIR$\Debug\Obj\mymain.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\LIS2DH12.o</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\DS18B20.o</file>
-            <file>$PROJ_DIR$\..\..\include\system\MP_OS.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SHT20.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\include\driver\MT_KL17_Flash.h</file>
             <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyTask.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyBoard.pbi</file>
-            <file>$PROJ_DIR$\Debug\List\EV306_SENSOR.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyTask.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyParse.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\include\include.h</file>
+            <file>$PROJ_DIR$\..\..\include\system\MP_OS.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\include\driver\MKL17Z644.h</file>
+            <file>$PROJ_DIR$\..\..\include\driver\MT_KL17_GPIO.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\MyGlobal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\include\core\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mymain.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyApp_INT.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyParse.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\DS18B20.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyGlobal.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyApp_INT.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lis2dh12_reg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lis2dh12_reg.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\MyApp_LWS.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SHT20.pbi</file>
-            <file>$PROJ_DIR$\APP\MyApp_INT.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyGlobal.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyParse.o</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\include\system\MP_OS_type.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lis2dh12_reg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SHT20.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\APP\MyAPP.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyTask.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyAPP.pbi</file>
+            <file>$PROJ_DIR$\Driver\LIS2DH12\LIS2DH12.h</file>
+            <file>$PROJ_DIR$\APP\MyApp_INT.h</file>
+            <file>$PROJ_DIR$\Driver\LIS2DH12\LIS2DH12.c</file>
+            <file>$PROJ_DIR$\mymain.c</file>
+            <file>$PROJ_DIR$\Driver\SHT20\SHT20.c</file>
+            <file>$PROJ_DIR$\Driver\SHT20\SHT20.h</file>
+            <file>$PROJ_DIR$\Driver\MT_KL17_I2C.c</file>
+            <file>$PROJ_DIR$\MyGlobal.c</file>
+            <file>$PROJ_DIR$\Driver\LIS2DH12\lis2dh12_reg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LIS2DH12.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyTask.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\include\system\MP_LWS_type.h</file>
+            <file>$PROJ_DIR$\Driver\LIS2DH12\lis2dh12_reg.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyBoard.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MT_KL17_I2C.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\DS18B20.o</file>
             <file>$PROJ_DIR$\Debug\Obj\MyBoard.o</file>
             <file>$PROJ_DIR$\MKL17Z64xxx4_MT.icf</file>
-            <file>$PROJ_DIR$\..\..\lib\MPSD_LWS402lightlib.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\List\EV306_SENSOR.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\SHT20.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SHT20.o</file>
+            <file>$PROJ_DIR$\APP\MyTask.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LIS2DH12.pbi</file>
+            <file>$PROJ_DIR$\..\..\lib\MPSD_LWS402litelib.a</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 12 96</file>
+                    <file> 10 98</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Driver\MT_KL17_I2C.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 3</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 85</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 60</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 61 77 44 0 57 52 63 28 53 39 71 59 93 49 31 24 46 78 33 72 65 66 32 74 91</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 72 66 53 71 52 0 39 74 77 46 24 28 59 93 65 44 31 57 63 49 33 32 91 78 61</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\APP\MyApp_INT.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 47</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 48</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 83</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 91 46 57 52 63 28 53 78 24 77 44 0 39 71 59 93 49 31 33 72 65 66 32 74 80 87 82 70 14 68 101 69 2 7 61 13 6 4</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 0 91 39 46 33 74 57 32 52 66 82 78 53 59 93 101 80 77 24 28 65 71 87 70 13 63 72 44 31 49 68 2 4 61 14 69 7 6</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\mymain.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 86</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 79</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 67</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 91 46 57 52 63 28 53 78 24 77 44 0 39 71 59 93 49 31 33 72 65 66 32 74 80 87 82 70 14 68 101 69 2 7 61 13 6 4</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 57 91 46 74 24 28 77 66 65 71 52 101 80 78 53 33 32 0 39 59 93 87 70 13 82 63 72 44 31 49 68 2 4 61 14 69 7 6</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MyGlobal.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 30</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 35</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 91 46 57 52 63 28 53 78 24 77 44 0 39 71 59 93 49 31 33 72 65 66 32 74 2 80 87</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 66 57 49 63 77 52 0 87 2 24 72 74 44 31 59 65 46 78 28 53 33 32 91 39 71 93 80</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\EV306_SENSOR.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 96</file>
-                </tool>
-                <tool>
-                    <name>OBJCOPY</name>
-                    <file> 41</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 104 90 88 36 3 11 47 51 103 20 86 55 94 58 105 89 42 81 50</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Driver\LIS2DH12\LIS2DH12.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 88</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 56</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 37</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 6 77 44 0 57 52 63 28 53 39 71 59 93 49 31 74 65 33 66 24 46 78 72 32 91 17 61 99 62</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 17 28 59 72 77 66 74 99 0 39 52 53 71 65 62 24 61 44 31 57 63 49 46 6 93 33 32 91 78</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Driver\DS18B20\DS18B20.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 90</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 54</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 43</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 13 77 44 0 57 52 63 28 53 39 71 59 93 49 31 24 46 78 33 72 65 66 32 74 91 82 80 87 70 14 68 101 69 2 7 61 6 4</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 77 65 74 49 44 31 0 46 91 57 33 66 69 24 63 59 32 78 14 6 80 61 82 39 52 28 53 71 93 72 70 7 13 68 101 2 4 87</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Driver\SHT20\SHT20.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 58</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 100</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 92</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 7 77 44 0 57 52 63 28 53 39 71 59 93 49 31 82 91 46 78 24 33 72 65 66 32 74 80 87 70 14 68 101 69 2 13 6 4 61</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 57 70 49 32 82 77 44 31 0 13 24 46 33 66 91 74 61 63 101 65 87 39 52 28 53 71 59 93 68 2 4 78 7 80 14 69 6 72</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\APP\MyApp_LWS.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51</file>
+                    <file> 31</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 98</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
                     <file> 64</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 91 46 57 52 63 28 53 78 24 77 44 0 39 71 59 93 49 31 33 72 65 66 32 74 80 87 82 70 14 68 101 69 2 7 61 13 6 4</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 74 44 65 46 52 59 13 31 77 87 82 72 70 24 63 66 57 0 49 33 91 101 80 78 28 53 32 39 71 93 68 2 4 61 14 69 7 6</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\APP\MyAPP.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 11</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 75</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 23</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 77 44 0 57 52 63 28 53 39 71 59 93 49 31 74 65 33 66 24 46 78 72 32 91 82 80 87 70 14 68 101 69 2 7 61 13 6 4 38 102</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 66 52 65 14 80 74 38 57 63 59 6 61 24 44 31 0 49 77 46 91 69 82 39 28 53 71 93 33 32 78 70 7 102 72 68 101 2 13 4 87</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Driver\LIS2DH12\lis2dh12_reg.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 36</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 34</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -402,11 +140,38 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 17 0 57 52 63 28 53</file>
+                    <file> 48 25 91 97 103 69 49 88 47 50 32 35 39 14 30 45 55 36 51 44 70 89 20 38 52 66 53 74 19 101 78 42 5 82 13 7 77 22</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 0 63 52 17 57 28 53</file>
+                    <file> 35 70 25 7 97 50 66 38 53 103 89 91 55 74 47 44 32 36 30 51 48 78 52 88 69 49 20 39 14 45 101 5 22 13 19 42 82 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\APP\MyApp_INT.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 25 91 97 103 69 49 88 47 50 32 35 39 14 30 45 55 36 51 44 70 89 20 38 52 66 53 74 19 101 78 42 5 82 13 7 77 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35 48 39 25 51 38 91 20 97 89 53 88 49 30 45 78 52 50 47 69 70 14 66 74 7 103 44 32 36 55 101 5 22 13 19 42 82 77</file>
                 </tool>
             </inputs>
         </file>
@@ -415,25 +180,25 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 103</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
                     <file> 95</file>
                 </tool>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
                     <name>__cstat</name>
-                    <file> 45</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 91 46 57 52 63 28 53 78 24 77 44 0 39 71 59 93 49 31 33 72 65 66 32 74 80 87 14 82 70 68 101 69 2 7 61 13 6 4</file>
+                    <file> 48 25 91 97 103 69 49 88 47 50 32 35 39 14 30 45 55 36 51 44 70 89 20 38 52 66 19 53 74 101 78 42 5 82 13 7 77 22</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 74 66 53 24 70 78 33 59 93 77 14 57 32 0 39 52 46 2 80 61 28 65 91 71 87 68 4 82 7 63 72 44 31 49 101 13 69 6</file>
+                    <file> 38 89 47 74 70 14 97 50 19 91 69 25 48 5 52 13 88 49 51 20 35 39 30 45 66 101 22 53 82 103 44 32 36 55 78 7 42 77</file>
                 </tool>
             </inputs>
         </file>
@@ -442,25 +207,25 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 55</file>
+                    <file> 67</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 73</file>
+                    <file> 58</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 84</file>
+                    <file> 46</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 74 65 77 44 0 57 52 63 28 53 39 71 59 93 49 31 33 66 24 46 78 72 32 91 70 80 87 14 82 68 101 69 2 7 61 13 6 4</file>
+                    <file> 38 70 50 32 35 91 97 103 69 49 39 14 30 45 55 36 51 89 47 25 88 44 20 48 74 52 66 19 53 101 78 42 5 82 13 7 77 22</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 32 24 65 49 14 82 44 31 0 77 6 80 70 33 57 63 59 78 46 91 74 69 4 66 39 52 28 53 71 93 7 61 72 87 68 101 2 13</file>
+                    <file> 70 55 19 53 32 36 35 50 77 52 74 51 91 103 30 25 48 89 38 42 47 22 39 97 69 49 14 45 20 88 82 13 44 66 101 78 5 7</file>
                 </tool>
             </inputs>
         </file>
@@ -469,25 +234,260 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 94</file>
+                    <file> 75</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 40</file>
+                    <file> 12</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 97</file>
+                    <file> 87</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 77 44 0 57 52 63 28 53 39 71 59 93 49 31 74 65 33 66 24 46 78 72 32 91 82 80 87 70 14 68 101 69 2 7 61 13 6 4</file>
+                    <file> 50 32 35 91 97 103 69 49 39 14 30 45 55 36 38 70 51 89 47 25 88 44 20 48 53 52 66 74 19 101 78 42 5 82 13 7 77 22</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 32 24 70 74 28 59 93 33 80 77 0 39 52 53 71 65 78 46 7 82 44 31 57 63 49 66 91 14 69 6 61 72 68 101 2 13 4 87</file>
+                    <file> 70 74 38 69 30 45 51 52 50 47 35 39 97 49 14 25 48 91 89 82 53 32 36 103 55 20 88 19 42 77 13 44 101 78 5 7 22 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Driver\DS18B20\DS18B20.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 50 32 35 91 97 103 69 49 39 14 30 45 55 36 47 25 88 51 44 70 89 20 38 48 53 52 66 74 19 101 78 42 5 82 13 77 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50 70 38 55 32 36 35 25 48 91 51 89 42 47 103 30 20 88 19 77 52 13 53 39 97 69 49 14 45 44 74 82 7 101 78 5 22 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\APP\MyAPP.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 32 35 91 97 103 69 49 39 14 30 45 55 36 38 70 51 89 47 25 88 44 20 48 53 52 66 74 19 101 78 42 5 82 13 7 77 22 54 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89 97 70 19 52 38 54 91 103 30 77 13 47 32 36 35 55 50 25 48 42 53 39 69 49 14 45 51 20 88 74 82 68 44 101 78 5 7 22 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\EV306_SENSOR.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 96 94 86 62 23 40 33 31 95 27 43 67 75 100 105 73 34 17 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Driver\LIS2DH12\LIS2DH12.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77 50 32 35 91 97 103 69 49 39 14 30 45 55 36 38 70 51 89 47 25 88 44 20 48 85 13 102 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 69 30 44 50 89 38 102 35 39 97 49 14 70 16 47 13 32 36 91 103 55 25 77 45 51 20 48 88</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\mymain.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 25 91 97 103 69 49 88 47 50 32 35 39 14 30 45 55 36 51 44 70 89 20 38 52 66 53 74 19 101 78 42 5 82 13 7 77 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 45 88 48 51 38 47 49 89 91 20 35 39 97 25 78 52 50 69 70 14 66 74 7 53 103 44 32 36 55 101 5 22 13 19 42 82 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Driver\SHT20\SHT20.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82 50 32 35 91 97 103 69 49 39 14 30 45 55 36 53 48 25 88 47 51 44 70 89 20 38 52 66 74 19 101 78 42 5 7 77 22 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91 47 55 20 53 50 32 36 35 5 25 51 89 48 38 13 103 101 22 70 66 39 97 69 49 14 30 45 74 78 7 88 82 52 19 42 77 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Driver\MT_KL17_I2C.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 50 32 35 91 97 103 69 49 39 14 30 45 55 36 47 25 88 51 44 70 89 20 38 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44 89 49 14 97 35 39 38 50 25 47 69 30 45 70 32 36 91 103 55 51 20 48 88 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MyGlobal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 25 91 97 103 69 49 88 47 50 32 35 39 14 30 45 55 36 51 44 70 89 20 38 5 52 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89 91 55 103 50 97 35 66 5 47 44 38 32 36 30 70 25 88 69 49 51 20 48 39 14 45 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Driver\LIS2DH12\lis2dh12_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 35 91 97 103 69 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35 103 97 85 91 69 49</file>
                 </tool>
             </inputs>
         </file>
