@@ -818,7 +818,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    <state>$PROJ_DIR$\..\..\lib\MPSD_LWS402lightlib.a</state>
+                    <state>$PROJ_DIR$\..\..\lib\MPSD_LWS402litelib.a</state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
