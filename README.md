@@ -3,13 +3,13 @@
     All rights reserved. This program and the accompanying materials
     are made available under the software of IAR for ARM version 8.20.2
     This is a demo working with the SDK of LWS made by ManThink Technology
-    LWS is a SDK for OMX02 which realize LoRaWAN function.
-    The Demo should be run on the hardware of OMX02 produced by ManThink Technology
+    LWS is a SDK for OMx02 which realize LoRaWAN function.
+    The Demo should be run on the hardware of OMx02 produced by ManThink Technology
     http://www.manthink.cn
     contact info : info@manthink.cn
     contributor  : mingfei zhao
     MPOS second development demo
-    1.LoRaWAN Stack library： LWS417Alib.a
+    1.LoRaWAN Stack library： MPOS_LWSx02lite.a
     The library realise most functions of LoRaWAN stack and provide some interfaces function for users.
     2.MyAPP.c
     The file is used to define some functions of user and setup periodic task and once event task.
