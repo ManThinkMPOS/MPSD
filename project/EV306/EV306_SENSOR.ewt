@@ -2433,7 +2433,7 @@
         </file>
     </group>
     <file>
-        <name>$PROJ_DIR$\MKL17Z64xxx4_RDIx01.icf</name>
+        <name>$PROJ_DIR$\MKL17Z64xxx4_MT.icf</name>
     </file>
     <file>
         <name>$PROJ_DIR$\MyGlobal.c</name>

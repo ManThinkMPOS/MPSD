@@ -818,7 +818,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    <state>$PROJ_DIR$\..\..\lib\MPSD_LWS402litelib.a</state>
+                    <state>$PROJ_DIR$\..\..\lib\MPSD_LWS402lite.a</state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
@@ -2112,7 +2112,7 @@
         </file>
     </group>
     <file>
-        <name>$PROJ_DIR$\MKL17Z64xxx4_RDIx01.icf</name>
+        <name>$PROJ_DIR$\MKL17Z64xxx4_MT.icf</name>
     </file>
     <file>
         <name>$PROJ_DIR$\MyGlobal.c</name>
