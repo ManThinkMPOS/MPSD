@@ -8,6 +8,7 @@
     http://www.manthink.cn
     contact info : info@manthink.cn
     contributor  : mingfei zhao
+    -----------------------------
     MPOS second development demo
     1.LoRaWAN Stack library： MPOS_LWSx02lite.a
     The library realise most functions of LoRaWAN stack and provide some interfaces function for users.
