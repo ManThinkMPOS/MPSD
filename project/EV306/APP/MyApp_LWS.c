@@ -18,17 +18,18 @@
 #define _OM402O_
 //#define _OM802O_
 
-static U_CROFW paraFwReg;      // parameters of the firmware which defines the parameters of LoRaWAN
-static U_CRORD paraRdReg;      // parameters of radio which include the frequency and the band
-static U_CROCF paraCFReg;      // parameters of Config which include the cofigure parameter 
-static u1_t AppKey[16]={0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6,0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C}; // APP key used for LoRaWAN
-static u8_t AppEui;
-static u4_t StartFreq;
-static u4_t Dn2Freq;
-static bool FDDStatus;
+//static U_CROFW paraFwReg;      // parameters of the firmware which defines the parameters of LoRaWAN
+//static U_CRORD paraRdReg;      // parameters of radio which include the frequency and the band
+//static U_CROCF paraCFReg;      // parameters of Config which include the cofigure parameter 
+//static u1_t AppKey[16]={0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6,0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C}; // APP key used for LoRaWAN
+//static u8_t AppEui;
+//static u4_t StartFreq;
+//static u4_t Dn2Freq;
+//static bool FDDStatus;
 /**********************Initialization of LoRaWAN******************************************************************/
 void MT_LoRaWANParaInitial()
 {
+/*
 #ifdef _OM402O_
   AppEui= 0x8100000002000001;
   StartFreq=470300000;
@@ -50,9 +51,9 @@ void MT_LoRaWANParaInitial()
   RunStatus.Varible.State.Bits.LinkCheck=0;
   RunStatus.Varible.DR=0; //300bps
   RunStatus.Varible.BattLevel=255;//continus power supply
-  
+*/  
   /* Configue the FW parameter*/
-  mpos_lws.paraFWGet(&paraFwReg);
+/*  mpos_lws.paraFWGet(&paraFwReg);
   paraFwReg.SFwRegister.RxWinDelay1=1;
   paraFwReg.SFwRegister.RxWinDelay2=2;
   paraFwReg.SFwRegister.JoinDelay1=5;
@@ -68,9 +69,9 @@ void MT_LoRaWANParaInitial()
   mpos_osfun.os_wlsbf8(paraFwReg.SFwRegister.AppEui,AppEui);
   mpos_osfun.memcpy1(paraFwReg.SFwRegister.DevKey,AppKey,16);
   mpos_lws.paraFWSave(&paraFwReg);
-  
+*/  
   /* Configue the RD parameter*/
-  mpos_lws.paraRDGet(&paraRdReg);
+/*mpos_lws.paraRDGet(&paraRdReg);
   paraRdReg.SRdRegister.dn2Dr=0; paraRdReg.SRdRegister.Power=22; 
   mpos_osfun.os_wlsbf4(paraRdReg.SRdRegister.dn2Freq,Dn2Freq);
   mpos_osfun.os_wlsbf2(paraRdReg.SRdRegister.channelMap,0x00FF);
@@ -82,9 +83,9 @@ void MT_LoRaWANParaInitial()
   }
   paraRdReg.SRdRegister.aliCHcntl=0x02;  
   mpos_lws.paraRDSave(&paraRdReg);
-  
+*/  
   /* Configue the CF parameter*/  
-  mpos_lws.paraCFGet(&paraCFReg);
+/*mpos_lws.paraCFGet(&paraCFReg);
   paraCFReg.CFRegister.exStackFunction.ByteS = 0x03;
   paraCFReg.CFRegister.JoinCHMap[0] = 0x02;
   paraCFReg.CFRegister.JoinCHMap[1] = 0x0;
@@ -92,7 +93,7 @@ void MT_LoRaWANParaInitial()
   paraCFReg.CFRegister.SWSF=10;paraCFReg.CFRegister.SWBW=7;
   paraCFReg.CFRegister.SWPeriod=80;
   mpos_lws.paraCFSave(&paraCFReg);
-
+*/
 }
 /*******************Event of LoRaWAN for users****************************************************/
 void MT_HookUserEvent( mt_ev_t ev ,u1_t port,u1_t * Buffer, u2_t len)
